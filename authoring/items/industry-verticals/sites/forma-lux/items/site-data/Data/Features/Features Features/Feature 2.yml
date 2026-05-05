@@ -31,7 +31,7 @@ Languages:
       Value: 20250904T103649Z
     - ID: "35b07fa2-ce95-4459-8dd6-074203dda9a7"
       Hint: FeatureDescription
-      Value: Over 2 years
+      Value: Complete the form and we’ll get back to you
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -42,17 +42,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "5f507c84-84f9-4033-81a2-90bca3d12606"
       Hint: FeatureTitle
-      Value: Warranty Protection
+      Value: Enquire online
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "9ac8ae86-ab6f-4bd0-b033-cf7a1af53640"
+      Value: "34e5c5f1-3582-4a19-8a8e-e6f17afb3005"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\sanduni.galagoda@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20251002T095833Z
+      Value: 20260504T101339Z
 - Language: "es-ES"
   Versions:
   - Version: 1

@@ -1,5 +1,5 @@
 ﻿---
-ID: "4d814864-65dc-407c-b7b4-5a16ee7f8314"
+ID: "aaa4a6ef-f969-4c59-a7f9-39e6e5a0859c"
 Parent: "e1ae8d95-5826-4006-aa5c-5e6104370a6f"
 Template: "fe5dd826-48c6-436d-b87a-7c4210c7413b"
 Path: "/sitecore/media library/Project/industry-verticals/forma-lux/Sitemaps/forma-lux"
@@ -10,7 +10,7 @@ Languages:
     Fields:
     - ID: "25bed78c-4957-4165-998a-ca1b52f67497"
       Hint: __Created
-      Value: 20250820T091655Z
+      Value: 20260504T090559Z
     - ID: "52807595-0f8f-4b20-8d2a-cb71d28c6103"
       Hint: __Owner
       Value: |
@@ -21,11 +21,11 @@ Languages:
         sitecore\Anonymous
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "e4a11da8-0451-468a-bbaf-0d5d6eea4d55"
+      Value: "35699276-7fba-40db-b7e9-1ad18bc2727c"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\Anonymous
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250820T091655Z
+      Value: 20260504T090559Z

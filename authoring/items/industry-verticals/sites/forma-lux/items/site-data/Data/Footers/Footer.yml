@@ -7,7 +7,10 @@ SharedFields:
 - ID: "2895a16e-c1b8-4e79-959a-802d5bc81a5a"
   Hint: Logo
   Value: |
-    <image mediaid="8cc2a449-e23b-488c-bb23-3d7c7a07f6e7" />
+    <image mediaid="05900534-6d2b-4738-8b03-a604e719bcc8" />
+- ID: "dbbbeca1-21c7-4906-9dd2-493c1efa59a2"
+  Hint: __Shared revision
+  Value: "16078df9-320c-4e2e-b541-793d3b4cf332"
 Languages:
 - Language: en
   Versions:
@@ -32,16 +35,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "6e545c55-70f1-49ef-b75f-e10257f0845a"
       Hint: Description
-      Value: <span>Live Boldly. Style Deeply.</span>
+      Value: |
+        <div class="ck-content"><p>Fund USI: MTA0100AU&nbsp;<br />Fund name: CareSuper<br />Fund ABN: 74 559 365 913</p></div>
     - ID: "775b58bb-13a1-426d-86e5-765ad797e407"
       Hint: TitleOne
-      Value: Furniture
+      Value: Careers
     - ID: "79d2d2a7-b0d5-421c-89fb-b7d040f56d26"
       Hint: CopyrightText
       Value: Copyright © 2025
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "d0be7b71-5f16-4ea1-9422-041c955615d2"
+      Value: "a5d635e2-4b41-46fc-a0c4-427bc30386f9"
     - ID: "9f2b5ebe-6b3a-4128-b6e9-6b7adf4e86da"
       Hint: PolicyText
       Value: |
@@ -49,7 +53,7 @@ Languages:
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
-        sitecore\jeral.sandeeptha@sitecore.com
+        sitecore\mehmet.vanli@sitecore.com
     - ID: "d12db112-ac8e-4701-9186-1c25d7c2c148"
       Hint: TitleTwo
       Value: Services
@@ -58,7 +62,7 @@ Languages:
       Value: Follow Us
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20250828T082243Z
+      Value: 20260504T101748Z
     - ID: "e646865b-2d8d-4608-a43e-42c7f1d21675"
       Hint: TitleFive
       Value: Install App
