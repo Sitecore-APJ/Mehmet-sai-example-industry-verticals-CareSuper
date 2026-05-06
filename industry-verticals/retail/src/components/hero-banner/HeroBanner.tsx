@@ -26,6 +26,21 @@ interface HeroBannerProps extends ComponentProps {
   fields: Fields;
 }
 
+/** Home rendering uses this id (layout); shorter min-height avoids an oversized hero. */
+const HEROBANNER_HOME_RENDERING_ID = 'herobanner_home';
+
+function heroBannerMinHeightClass(renderingId?: string): string {
+  return renderingId === HEROBANNER_HOME_RENDERING_ID ? 'min-h-160' : 'min-h-238';
+}
+
+/** Home hero: lg+ avoids `object-bottom` so the focal area isn’t top-cropped like other heroes. */
+function heroBannerBackgroundCoverClass(renderingId?: string): string {
+  const base = 'h-full w-full object-cover';
+  return renderingId === HEROBANNER_HOME_RENDERING_ID
+    ? `${base} md:object-bottom lg:object-[center_10%]`
+    : `${base} md:object-bottom`;
+}
+
 const HeroBannerCommon = ({
   params,
   fields,
@@ -37,6 +52,7 @@ const HeroBannerCommon = ({
   const { styles, RenderingIdentifier: id } = params;
   const isPageEditing = page.mode.isEditing;
   const hideGradientOverlay = styles?.includes(HeroBannerStyles.HideGradientOverlay);
+  const backgroundCoverClass = heroBannerBackgroundCoverClass(id);
 
   if (!fields) {
     return isPageEditing ? (
@@ -54,7 +70,7 @@ const HeroBannerCommon = ({
       <div className="absolute inset-0 z-0">
         {!isPageEditing && fields?.Video?.value?.src ? (
           <video
-            className="h-full w-full object-cover"
+            className={backgroundCoverClass}
             autoPlay
             muted
             loop
@@ -65,11 +81,7 @@ const HeroBannerCommon = ({
           </video>
         ) : (
           <>
-            <ContentSdkImage
-              field={fields.Image}
-              className="h-full w-full object-cover md:object-bottom"
-              priority
-            />
+            <ContentSdkImage field={fields.Image} className={backgroundCoverClass} priority />
           </>
         )}
         {/* Gradient overlay to fade image/video at bottom */}
@@ -90,6 +102,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
+  const minHeightClass = heroBannerMinHeightClass(params.RenderingIdentifier);
 
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
@@ -97,7 +110,7 @@ export const Default = ({ params, fields, rendering }: HeroBannerProps) => {
       <div className="relative w-full">
         <div className="container mx-auto px-4">
           <div
-            className={`flex min-h-238 w-full py-10 lg:w-1/2 lg:items-center ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
+            className={`flex ${minHeightClass} w-full py-10 lg:w-1/2 lg:items-center ${reverseLayout ? 'lg:mr-auto' : 'lg:ml-auto'}`}
           >
             <div className="max-w-182">
               <div className={clsx({ shim: screenLayer })}>
@@ -139,14 +152,17 @@ export const TopContent = ({ params, fields, rendering }: HeroBannerProps) => {
   const reverseLayout = styles.includes(LayoutStyles.Reversed);
   const screenLayer = styles.includes(HeroBannerStyles.ScreenLayer);
   const searchBarPlaceholderKey = `hero-banner-search-bar-${params.DynamicPlaceholderId}`;
+  const minHeightClass = heroBannerMinHeightClass(params.RenderingIdentifier);
+  const topContentLgPadding =
+    params.RenderingIdentifier === HEROBANNER_HOME_RENDERING_ID ? 'lg:py-20' : 'lg:py-44';
 
   return (
     <HeroBannerCommon params={params} fields={fields} rendering={rendering}>
       {/* Content Container */}
       <div className="relative w-full">
-        <div className="container mx-auto flex min-h-238 justify-center px-4">
+        <div className={`container mx-auto flex ${minHeightClass} justify-center px-4`}>
           <div
-            className={`flex flex-col items-center py-10 lg:py-44 ${reverseLayout ? 'justify-end' : 'justify-start'}`}
+            className={`flex flex-col items-center py-10 ${topContentLgPadding} ${reverseLayout ? 'justify-end' : 'justify-start'}`}
           >
             <div className={clsx({ shim: screenLayer })}>
               {/* Title */}
