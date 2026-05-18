@@ -1,8 +1,8 @@
 ﻿---
-ID: "e68fe0e2-3e75-4461-a8d9-0303611ef104"
+ID: "2eadd9a8-00ae-4816-aee2-0929f467a102"
 Parent: "fb9ccf81-04c2-4073-a5c5-ede3a0bdc198"
 Template: "ad148487-7aae-4095-b602-7f9aeeb3f8b6"
-Path: "/sitecore/content/industry-verticals/forma-lux/Data/Features/CareSuper - Features Choosing Us"
+Path: "/sitecore/content/industry-verticals/forma-lux/Data/Features/CareSuper - Features Choosing Us_var2"
 BranchID: "82ac1f90-61f1-4812-9553-e1a4c81405fe"
 SharedFields:
 - ID: "f6d8a61c-2f84-4401-bd24-52d2068172bc"
@@ -29,17 +29,17 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "72d8508a-b0c3-4ea3-a5fe-627eca54f2db"
+      Value: "0d08f003-dbe5-4a57-851a-5c3c9d03ed62"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260518T034232Z
+      Value: 20260518T034133Z
     - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
       Hint: Title
-      Value: "Why CareSuper ?"
+      Value: Why Choosing Us
 - Language: "es-ES"
   Versions:
   - Version: 1
@@ -60,14 +60,14 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "88e34e5f-2c36-40b0-9772-4d63032af6f1"
+      Value: "d7d55ba6-a367-486d-959b-662db38dabb5"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260504T092805Z
+      Value: 20260518T034132Z
     - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
       Hint: Title
       Value: "¿Por qué elegirnos?"
@@ -89,7 +89,7 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "875c9cf7-a675-4917-bc7e-a4ae9cd94aaa"
+      Value: "98343cd9-121a-4ee8-90c6-e3cbf11e58b2"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -102,7 +102,7 @@ Languages:
       Value: 
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260504T092807Z
+      Value: 20260518T034134Z
     - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
       Hint: Title
       Value: Por qué elegirnos
@@ -126,7 +126,7 @@ Languages:
         sitecore\jeral.sandeeptha@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "b794e008-a920-47fc-a704-eb106f6c6c2e"
+      Value: "7e60665a-504d-4bbc-abe0-3839d63711a3"
     - ID: "9857f526-390f-48df-b6d1-1a97cc328e8f"
       Hint: __Version Name
       Value: AI translated
@@ -136,7 +136,7 @@ Languages:
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260504T092807Z
+      Value: 20260518T034134Z
     - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
       Hint: Title
       Value: Pourquoi nous choisir
@@ -160,14 +160,14 @@ Languages:
         sitecore\sanduni.galagoda@sitecore.com
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "3bdd2e13-6d14-4de5-acf5-d10777e5a83c"
+      Value: "b923ae47-0923-4689-8d35-a874c5b15218"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
         sitecore\mehmet.vanli@sitecore.com
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260504T092807Z
+      Value: 20260518T034134Z
     - ID: "ffb5aa63-114b-40f1-8e73-498e278a3ead"
       Hint: Title
       Value: Pourquoi nous choisir

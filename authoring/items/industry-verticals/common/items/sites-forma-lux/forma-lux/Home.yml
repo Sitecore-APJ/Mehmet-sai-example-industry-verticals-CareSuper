@@ -195,7 +195,38 @@ Languages:
             <r
               uid="{3322063A-EBC7-4FE5-B3B2-0E084039FC58}"
               s:ds="e68fe0e2-3e75-4461-a8d9-0303611ef104"
-              s:par="FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D" />
+              s:par="FieldNames=%7BE7FB2EE2-33B4-4536-8453-6ACC1CDEBE72%7D&amp;RenderingIdentifier&amp;Styles=%7C%7B8562F7F8-721A-4C82-B884-AAF58B44C6B6%7D%7C%7B3193A7EB-6465-49CA-A53B-7579C294924A%7D&amp;CSSStyles&amp;GridParameters=%7B7465D855-992E-4DC2-9855-A03250DFA74B%7D">
+              <rls>
+                <ruleset
+                  s:pet="true">
+                  <rule
+                    uid="{DA169677-5087-4273-9AA5-0A68E69EE90F}"
+                    s:name="3322063aebc74fe5b3b20e084039fc58_5887f2e4e6cf459a9d6677bc6190ed29">
+                    <conditions>
+                      <condition
+                        uid="706851E3BF5C4DF48D48FBE731868581"
+                        s:id="{8E7426A4-12ED-4C44-8625-E7191860E726}"
+                        s:VariantName="3322063aebc74fe5b3b20e084039fc58_5887f2e4e6cf459a9d6677bc6190ed29" />
+                    </conditions>
+                    <actions>
+                      <action
+                        uid="{C3B2A938-CC54-413C-8A61-8C41CDDD2BA6}"
+                        s:id="{0F3C6BEC-E56B-4875-93D7-2846A75881D2}"
+                        s:DataSource="2eadd9a8-00ae-4816-aee2-0929f467a102" />
+                    </actions>
+                  </rule>
+                  <rule
+                    uid="{00000000-0000-0000-0000-000000000000}"
+                    s:name="Default">
+                    <conditions>
+                      <condition
+                        uid="F3B46D4119D24BAABCF6674D66F3F018"
+                        s:id="{4888ABBB-F17D-4485-B14B-842413F88732}" />
+                    </conditions>
+                  </rule>
+                </ruleset>
+              </rls>
+            </r>
             <r
               uid="{9E9A7694-8CBD-488D-90F8-C88AE51B223A}">
               <p:d />
@@ -290,7 +321,7 @@ Languages:
       Value: "Explore Forma Lux’s luxurious furniture collections: heritage craftsmanship meets modern, sustainable design for elegant living spaces."
     - ID: "8cdc337e-a112-42fb-bbb4-4143751e123f"
       Hint: __Revision
-      Value: "92a9ba7d-d3bd-4658-9813-a52912be8c51"
+      Value: "302af68b-a2bb-4297-9da8-8a56cdb1b39a"
     - ID: "badd9cf9-53e0-4d0c-bcc0-2d784c282f6a"
       Hint: __Updated by
       Value: |
@@ -300,7 +331,7 @@ Languages:
       Value: Forma Lux unites artisan heritage with contemporary design to create modular, sustainable furniture for elegant, livable spaces.
     - ID: "d9cf14b1-fa16-4ba6-9288-e8a174d4d522"
       Hint: __Updated
-      Value: 20260517T052824Z
+      Value: 20260518T034258Z
 - Language: "es-ES"
   Versions:
   - Version: 2
