@@ -1,8 +1,8 @@
 ﻿---
 ID: "46e2c765-75bc-499c-b9a1-390ce3b07a10"
-Parent: "4e869961-efef-4b47-bb69-170a251d689b"
+Parent: "032c8e65-a08e-46dc-8be9-529e952f9f4e"
 Template: "98e60957-0783-4a9a-85cc-77dad30e9711"
-Path: "/sitecore/content/industry-verticals/forma-lux/Home/Decor"
+Path: "/sitecore/content/industry-verticals/forma-lux/Home/Zzz_Old/Decor"
 SharedFields:
 - ID: "25f9b35b-0c2c-4f43-ae2f-1d30eb1f2b6b"
   Hint: ogImage
